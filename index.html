@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recargas Digitales · Kusarive Solutions LLC</title>
+<meta name="description" content="Tienda de recargas de juegos, gift cards y saldo de teléfono para América Latina con entrega automática, API y marca blanca para distribuidores.">
+<style>
+:root{--bg:#fafaf7;--card:#fff;--txt:#1d1d1b;--suave:#5c5c57;--linea:#e7e5df;--acento:#2b3dff;--acento-txt:#ffffff;--ok:#18794e}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--card:#1c1c1a;--txt:#efeee9;--suave:#a3a29b;--linea:#2e2d2a;--acento:#4d5cff;--ok:#4cc38a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.envoltura{max-width:1040px;margin:0 auto;padding:0 16px}
+header{padding:28px 0 8px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.marca{font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.marca span{background:var(--acento);color:var(--acento-txt);border-radius:6px;padding:2px 7px;margin-right:6px}
+.idioma button{background:none;border:1px solid var(--linea);color:var(--txt);border-radius:999px;padding:4px 12px;cursor:pointer;font:inherit;font-size:.85rem}
+.idioma button[aria-pressed=true]{background:var(--txt);color:var(--bg)}
+.portada{padding:48px 0 24px}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 16px;letter-spacing:-.02em}
+.lema{font-size:1.15rem;color:var(--suave);max-width:680px;margin:0}
+.estado{display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:.9rem;color:var(--suave)}
+.estado i{width:9px;height:9px;border-radius:50%;background:var(--ok);display:inline-block}
+.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:32px 0 8px}
+.cifra{background:var(--card);border:1px solid var(--linea);border-radius:14px;padding:18px 20px}
+.cifra b{display:block;font-size:2rem;letter-spacing:-.02em}
+.cifra small{color:var(--suave)}
+.nota{font-size:.82rem;color:var(--suave);margin:4px 0 0}
+h2{font-size:1.5rem;margin:56px 0 16px;letter-spacing:-.01em}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.bloque{background:var(--card);border:1px solid var(--linea);border-radius:14px;padding:18px 20px}
+.bloque h3{margin:0 0 6px;font-size:1.02rem}
+.bloque p{margin:0;color:var(--suave);font-size:.95rem}
+.capturas{display:grid;grid-template-columns:2fr 1fr;gap:14px;align-items:start}
+.capturas figure{margin:0}
+.capturas img{width:100%;height:auto;border-radius:12px;border:1px solid var(--linea);display:block}
+.capturas figcaption{font-size:.85rem;color:var(--suave);margin-top:6px}
+.pila{display:grid;gap:14px}
+.flujo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.95rem}
+.flujo span{background:var(--card);border:1px solid var(--linea);border-radius:10px;padding:8px 12px}
+.flujo em{color:var(--suave);font-style:normal}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--linea);border-radius:14px;overflow:hidden}
+td{padding:12px 16px;border-top:1px solid var(--linea);vertical-align:top;font-size:.95rem}
+tr:first-child td{border-top:0}
+td:first-child{font-weight:700;white-space:nowrap;width:1%}
+.contacto{background:var(--card);border:1px solid var(--linea);border-radius:14px;padding:22px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+.contacto a{color:var(--txt);font-weight:600}
+.boton{background:var(--acento);color:var(--acento-txt)!important;text-decoration:none;border-radius:10px;padding:10px 16px}
+footer{padding:40px 0;color:var(--suave);font-size:.85rem}
+[data-en]{display:none}
+html[lang=en] [data-es]{display:none}
+html[lang=en] [data-en]{display:revert}
+html[lang=en] .cifra b[data-en]{display:block}
+@media (max-width:720px){.capturas{grid-template-columns:1fr}td:first-child{white-space:normal}}
+</style>
+</head>
+<body>
+<div class="envoltura">
+<header>
+  <div class="marca"><span>RD</span>Recargas Digitales</div>
+  <div class="idioma" role="group" aria-label="Idioma / Language">
+    <button type="button" data-l="es" aria-pressed="true">ES</button>
+    <button type="button" data-l="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<section class="portada">
+  <h1 data-es>Recargas, gift cards y saldo que llegan solos, a cualquier hora.</h1><h1 data-en>Top-ups, gift cards and airtime that arrive on their own, at any hour.</h1>
+  <p class="lema" data-es>Tienda para América Latina con entrega automática, precios calculados sobre el coste real y un canal completo para distribuidores: planes, API y tienda de marca blanca.</p><p class="lema" data-en>A store for Latin America with automatic delivery, prices computed on real cost and a full reseller channel: plans, API and a white-label store.</p>
+  <div class="estado"><i></i><span data-es>En producción en <a href="https://recargasdigitales.com">recargasdigitales.com</a> · Sistema propietario de Kusarive Solutions LLC</span><span data-en>In production at <a href="https://recargasdigitales.com">recargasdigitales.com</a> · Proprietary system by Kusarive Solutions LLC</span></div>
+  <div class="cifras">
+    <div class="cifra"><b data-es>2.600</b><b data-en>2,600</b><small data-es>denominaciones activas en 314 productos</small><small data-en>active denominations across 314 products</small></div>
+    <div class="cifra"><b>119</b><small data-es>pedidos entregados desde el 12-sep-2026</small><small data-en>orders delivered since 12-Sep-2026</small></div>
+    <div class="cifra"><b>59</b><small data-es>clientes con pedido entregado</small><small data-en>customers with a delivered order</small></div>
+  </div>
+  <p class="nota" data-es>Cifras reales leídas de la base de datos de producción el 27-oct-2026, sin cuentas internas.</p><p class="nota" data-en>Real figures read from the production database on 27-Oct-2026, excluding internal accounts.</p>
+</section>
+
+<h2 data-es>Qué hace</h2><h2 data-en>What it does</h2>
+<div class="rejilla">
+  <div class="bloque"><h3 data-es>Entrega automática</h3><h3 data-en>Automatic delivery</h3>
+    <p data-es>Confirmado el pago, reserva el pedido, compra al mayorista y entrega el código o la recarga.</p><p data-en>Once paid, it reserves the order, buys from the wholesaler and delivers the code or top-up.</p></div>
+  <div class="bloque"><h3 data-es>Región antes de pagar</h3><h3 data-en>Region before paying</h3>
+    <p data-es>Cada ficha dice en qué cuenta y en qué país sirve el código.</p><p data-en>Every product page states which account and country the code works in.</p></div>
+  <div class="bloque"><h3 data-es>Motor de precios propio</h3><h3 data-en>In-house pricing engine</h3>
+    <p data-es>Precio por tramos y familias sobre el coste real, con un margen mínimo que impide vender a pérdida.</p><p data-en>Prices by tier and family over real cost, with a minimum margin that prevents selling at a loss.</p></div>
+  <div class="bloque"><h3 data-es>Planes de distribuidor</h3><h3 data-en>Reseller plans</h3>
+    <p data-es>Precio mayorista en todo el catálogo al contratar, cuentas para el equipo y calculadora de ahorro.</p><p data-en>Wholesale prices on the whole catalog on signing up, team accounts and a savings calculator.</p></div>
+  <div class="bloque"><h3 data-es>API y marca blanca</h3><h3 data-en>API and white label</h3>
+    <p data-es>API con clave y entorno de pruebas, y una tienda completa con la marca del distribuidor.</p><p data-en>A keyed API with a test environment, and a complete store under the reseller's brand.</p></div>
+  <div class="bloque"><h3 data-es>Billetera, puntos y garantía</h3><h3 data-en>Wallet, points and warranty</h3>
+    <p data-es>Saldo, puntos sobre el margen, comprobantes e incidencias desde el área de cliente.</p><p data-en>Balance, points on the margin, receipts and incident reports from the customer area.</p></div>
+</div>
+
+<h2 data-es>Capturas</h2><h2 data-en>Screenshots</h2>
+<div class="capturas">
+  <div class="pila">
+    <figure><img src="capturas/portada.jpg" alt="Portada / Home page" loading="lazy" width="1280" height="800"><figcaption data-es>Portada.</figcaption><figcaption data-en>Home page.</figcaption></figure>
+    <figure><img src="capturas/ficha.jpg" alt="Ficha / Product page" loading="lazy" width="1280" height="800"><figcaption data-es>Ficha de producto con entrega, garantía y aviso de cuenta.</figcaption><figcaption data-en>Product page with delivery, warranty and account notice.</figcaption></figure>
+    <figure><img src="capturas/distribuidores.jpg" alt="Calculadora / Calculator" loading="lazy" width="1200" height="739"><figcaption data-es>Calculadora pública de los planes de distribuidor.</figcaption><figcaption data-en>Public calculator for the reseller plans.</figcaption></figure>
+  </div>
+  <div class="pila">
+    <figure><img src="capturas/movil.jpg" alt="Móvil / Mobile" loading="lazy" width="390" height="844"><figcaption data-es>La portada en el móvil.</figcaption><figcaption data-en>The home page on mobile.</figcaption></figure>
+  </div>
+</div>
+
+<h2 data-es>Cómo fluye un pedido</h2><h2 data-en>How an order flows</h2>
+<div data-es><div class="flujo"><span>Comprador o distribuidor</span><em>→</em><span>Tienda o API</span><em>→</em><span>Cobro confirmado</span><em>→</em><span>Reserva</span><em>→</em><span>Compra al mayorista</span><em>→</em><span>Entrega y aviso</span></div></div>
+<div data-en><div class="flujo"><span>Buyer or reseller</span><em>→</em><span>Store or API</span><em>→</em><span>Payment confirmed</span><em>→</em><span>Reservation</span><em>→</em><span>Wholesaler purchase</span><em>→</em><span>Delivery and notice</span></div></div>
+<p class="nota" data-es>La compra al mayorista se hace fuera de la transacción: un mayorista lento nunca bloquea la tienda.</p><p class="nota" data-en>The wholesaler purchase happens outside the transaction: a slow wholesaler never blocks the store.</p>
+
+<h2 data-es>Garantías técnicas</h2><h2 data-en>Technical guarantees</h2>
+<table>
+  <tr><td data-es>Precio</td><td data-en>Pricing</td><td><span data-es>Ninguna venta por debajo de un margen mínimo sobre el coste real del mayorista.</span><span data-en>No sale below a minimum margin over the wholesaler's real cost.</span></td></tr>
+  <tr><td data-es>Fraude</td><td data-en>Fraud</td><td><span data-es>Lista de veto, verificación de identidad, topes mensuales y productos sensibles solo para verificados.</span><span data-en>Block list, identity verification, monthly caps and sensitive products only for verified customers.</span></td></tr>
+  <tr><td data-es>Calidad</td><td data-en>Quality</td><td><span data-es>Más de 70 baterías de pruebas antes de cada despliegue y pruebas con navegador en 17 anchos.</span><span data-en>More than 70 test suites before every deployment and browser tests across 17 widths.</span></td></tr>
+  <tr><td data-es>Datos</td><td data-en>Data</td><td><span data-es>Migraciones numeradas y claves de proveedores en la base, no en ficheros.</span><span data-en>Numbered migrations and supplier keys in the database, not in files.</span></td></tr>
+</table>
+
+<h2 data-es>Construido con</h2><h2 data-en>Built with</h2>
+<table>
+  <tr><td>PHP</td><td><span data-es>Tienda, área de cliente, panel, API y motor (56.000 líneas); herramientas y pruebas (27.000); marca blanca (10.000).</span><span data-en>Store, customer area, admin, API and engine (56,000 lines); tools and tests (27,000); white label (10,000).</span></td></tr>
+  <tr><td>SQL</td><td><span data-es>El esquema y 72 migraciones (4.000 líneas).</span><span data-en>The schema and 72 migrations (4,000 lines).</span></td></tr>
+  <tr><td>CSS · JavaScript</td><td><span data-es>La interfaz y las pruebas con navegador (10.000 líneas).</span><span data-en>The interface and browser tests (10,000 lines).</span></td></tr>
+  <tr><td>Python</td><td><span data-es>Comprobaciones contra producción (1.000 líneas).</span><span data-en>Checks against production (1,000 lines).</span></td></tr>
+</table>
+
+<h2 data-es>Contacto</h2><h2 data-en>Contact</h2>
+<div class="contacto">
+  <div><strong>Rafael Blanco</strong><br><span data-es>para Kusarive Solutions LLC</span><span data-en>for Kusarive Solutions LLC</span></div>
+  <a href="https://recargasdigitales.com">recargasdigitales.com</a>
+  <a href="mailto:info@recargasdigitales.com">info@recargasdigitales.com</a>
+  <a class="boton" href="https://wa.me/584128962261">WhatsApp +58 412 896 2261</a>
+</div>
+
+<footer>© 2026 Kusarive Solutions LLC.</footer>
+</div>
+
+<script>
+(function(){
+  var html=document.documentElement;
+  function poner(l){
+    html.lang=l;
+    document.querySelectorAll('.idioma button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l)});
+    try{localStorage.setItem('idioma',l)}catch(e){}
+  }
+  document.querySelectorAll('.idioma button').forEach(function(b){b.addEventListener('click',function(){poner(b.dataset.l)})});
+  var g=null;try{g=localStorage.getItem('idioma')}catch(e){}
+  poner(g||((navigator.language||'es').slice(0,2)==='en'?'en':'es'));
+})();
+</script>
+</body>
+</html>
