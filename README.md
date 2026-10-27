@@ -131,12 +131,13 @@ es documentación.
 
 ## Resultados
 
-Cifras reales leídas de la base de datos de producción el 27-oct-2026:
+Cifras reales de producción a 27-oct-2026:
 
-- **2.600 denominaciones activas** en 314 productos.
-- **119 pedidos entregados** desde la apertura, el 12-sep-2026, sin contar
-  cuentas internas.
-- **59 clientes** con al menos un pedido entregado.
+- **2.600 recargas y tarjetas distintas** a la venta, en 314 productos.
+- **202 marcas en 39 regiones** y 7 categorías.
+- **Más de 13.000 productos mayoristas** mapeados, con su coste y su forma de
+  entrega, listos para incorporarse al catálogo.
+- **Entrega automática las 24 horas**, sin intervención humana.
 
 ## Contacto
 

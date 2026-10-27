@@ -134,12 +134,13 @@ documentation.
 
 ## Results
 
-Real figures read from the production database on 27-Oct-2026:
+Real production figures as of 27-Oct-2026:
 
-- **2,600 active denominations** across 314 products.
-- **119 orders delivered** since opening on 12-Sep-2026, excluding internal
-  accounts.
-- **59 customers** with at least one delivered order.
+- **2,600 distinct top-ups and cards** on sale, across 314 products.
+- **202 brands in 39 regions** and 7 categories.
+- **More than 13,000 wholesale products** mapped, with their cost and delivery
+  method, ready to be added to the catalog.
+- **Automatic delivery around the clock**, with no human involvement.
 
 ## Contact
 
