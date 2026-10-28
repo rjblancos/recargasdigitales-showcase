@@ -7,7 +7,8 @@
 **Status:** in production at [recargasdigitales.com](https://recargasdigitales.com) ·
 **Proprietary system** by Kusarive Solutions LLC ·
 [Versión en español](README.md) ·
-[Presentation page](https://rjblancos.github.io/recargasdigitales-showcase/)
+[Presentation page](https://rjblancos.github.io/recargasdigitales-showcase/) ·
+**[Download the presentation as PDF](presentacion/RecargasDigitales-presentacion.pdf)** (16 slides, in Spanish)
 
 ---
 
@@ -149,5 +150,6 @@ Rafael Blanco, for Kusarive Solutions LLC
 - Web: [recargasdigitales.com](https://recargasdigitales.com)
 - Email: info@recargasdigitales.com
 - WhatsApp: [+58 412 896 2261](https://wa.me/584128962261)
+- Presentation: [16-slide PDF](presentacion/RecargasDigitales-presentacion.pdf) (in Spanish)
 
 © 2026 Kusarive Solutions LLC. See [LICENSE](LICENSE).
