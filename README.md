@@ -44,7 +44,8 @@ con su comprobante.
 - **Tres planes de distribuidor.** Precios mayoristas en todo el catálogo desde
   el momento de contratar, cuentas para el equipo del distribuidor y una
   calculadora pública de cuánto ahorra cada plan.
-- **API para distribuidores.** Catálogo, precio, pedido y saldo, con clave
+- **API para distribuidores.** Catálogo, precio, pedido, saldo y comprobación de
+  la cuenta del jugador antes de comprar, con clave
   propia, entorno de pruebas y documentación pública. Ya hay una tienda externa
   vendiendo el catálogo por esta API.
 - **Tienda de marca blanca.** El plan superior incluye una tienda completa que
@@ -148,5 +149,12 @@ Rafael Blanco, para Kusarive Solutions LLC
 - Correo: info@recargasdigitales.com
 - WhatsApp: [+58 412 896 2261](https://wa.me/584128962261)
 - Presentación: [PDF de 12 diapositivas](presentacion/RecargasDigitales-presentacion.pdf)
+
+## Novedades
+
+- **27-oct-2026** · Los distribuidores pueden comprobar la cuenta del jugador antes de comprar, desde la API y desde su tienda de marca blanca, que además estrena portada completa.
+- **27-oct-2026** · Publicación de la vitrina, con su presentación en PDF descargable.
+
+Registro completo: [CHANGELOG.md](CHANGELOG.md).
 
 © 2026 Kusarive Solutions LLC. Ver [LICENSE](LICENSE).

@@ -45,7 +45,8 @@ code or top-up within minutes, with its receipt.
 - **Three reseller plans.** Wholesale prices across the whole catalog from the
   moment of signing up, accounts for the reseller's team, and a public
   calculator showing how much each plan saves.
-- **Reseller API.** Catalog, price, order and balance, with a personal key, a
+- **Reseller API.** Catalog, price, order, balance and a check of the player
+  account before buying, with a personal key, a
   test environment and public documentation. An external store is already
   selling the catalog through this API.
 - **White-label store.** The top plan includes a complete store the reseller
@@ -151,5 +152,12 @@ Rafael Blanco, for Kusarive Solutions LLC
 - Email: info@recargasdigitales.com
 - WhatsApp: [+58 412 896 2261](https://wa.me/584128962261)
 - Presentation: [12-slide PDF](presentacion/RecargasDigitales-presentacion.pdf) (in Spanish)
+
+## What's new
+
+- **27-Oct-2026** · Resellers can check the player account before buying, through the API and from their white-label store, which also gets a full storefront.
+- **27-Oct-2026** · Showcase published, with a downloadable PDF presentation.
+
+Full log: [CHANGELOG.md](CHANGELOG.md).
 
 © 2026 Kusarive Solutions LLC. See [LICENSE](LICENSE).
