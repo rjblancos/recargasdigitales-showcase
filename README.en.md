@@ -146,8 +146,6 @@ Real production figures as of 27-Oct-2026:
 
 ## Contact
 
-Rafael Blanco, for Kusarive Solutions LLC
-
 - Web: [recargasdigitales.com](https://recargasdigitales.com)
 - Email: info@recargasdigitales.com
 - WhatsApp: [+58 412 896 2261](https://wa.me/584128962261)
